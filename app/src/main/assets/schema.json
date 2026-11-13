@@ -1,0 +1,2812 @@
+{
+  "resources": [
+    {
+      "title": "Номенклатура",
+      "collection": "Catalog_Номенклатура",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Контрагенты",
+      "collection": "Catalog_Контрагенты",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Склады",
+      "collection": "Catalog_Склады",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Реализация товаров и услуг",
+      "collection": "Document_РеализацияТоваровУслуг",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Приходный кассовый ордер",
+      "collection": "Document_ПриходныйКассовыйОрдер",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Расходный кассовый ордер",
+      "collection": "Document_РасходныйКассовыйОрдер",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Авансовый отчёт",
+      "collection": "Document_АвансовыйОтчет",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Платёжное поручение исходящее",
+      "collection": "Document_ПлатежноеПоручениеИсходящее",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Платёжное поручение входящее",
+      "collection": "Document_ПлатежноеПоручениеВходящее",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Конвертация",
+      "collection": "Document_Конвертация",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Платёжный ордер — списание денежных средств",
+      "collection": "Document_ПлатежныйОрдерСписаниеДенежныхСредств",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Платёжный ордер — поступление денежных средств",
+      "collection": "Document_ПлатежныйОрдерПоступлениеДенежныхСредств",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Статьи движения денежных средств",
+      "collection": "Catalog_СтатьиДвиженияДенежныхСредств",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Физические лица",
+      "collection": "Catalog_ФизическиеЛица",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Валюты",
+      "collection": "Catalog_Валюты",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Доверенность",
+      "collection": "Document_Доверенность",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Поступление товаров и услуг",
+      "collection": "Document_ПоступлениеТоваровУслуг",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Поступление доп. расходов",
+      "collection": "Document_ПоступлениеДопРасходов",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "ГТД по импорту",
+      "collection": "Document_ГТДИмпорт",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Возврат товаров поставщику",
+      "collection": "Document_ВозвратТоваровПоставщику",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Счёт-фактура полученный",
+      "collection": "Document_СчетФактураПолученный",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Счёт на оплату",
+      "collection": "Document_СчетНаОплатуПокупателю",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Возврат товаров от покупателя",
+      "collection": "Document_ВозвратТоваровОтПокупателя",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Счёт-фактура выданный",
+      "collection": "Document_СчетФактураВыданный",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Инвентаризация товаров на складе",
+      "collection": "Document_ИнвентаризацияТоваровНаСкладе",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Оприходование товаров",
+      "collection": "Document_ОприходованиеТоваров",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Списание товаров",
+      "collection": "Document_СписаниеТоваров",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Перемещение товаров",
+      "collection": "Document_ПеремещениеТоваров",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Движение МБП",
+      "collection": "Document_ДвижениеМБП",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Комплектация номенклатуры",
+      "collection": "Document_КомплектацияНоменклатуры",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Требование-накладная",
+      "collection": "Document_ТребованиеНакладная",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Отчёт производства за смену",
+      "collection": "Document_ОтчетПроизводстваЗаСмену",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Акт об оказании услуг производственного характера",
+      "collection": "Document_АктОбОказанииПроизводственныхУслуг",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Инвентаризация незавершённого производства",
+      "collection": "Document_ИнвентаризацияНЗП",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Закрытие месяца",
+      "collection": "Document_ЗакрытиеМесяца",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Основные спецификации номенклатуры",
+      "collection": "Catalog_СпецификацииНоменклатуры",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Номенклатурные группы",
+      "collection": "Catalog_НоменклатурныеГруппы",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Подразделения",
+      "collection": "Catalog_ПодразделенияОрганизаций",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Порядок подразделений для закрытия счетов",
+      "collection": "InformationRegister_ПорядокЗакрытияПодразделенийОрганизаций_RecordType",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,Организация_Key,Подразделение_Key",
+      "keyTypes": {
+        "Period": "Edm.DateTime",
+        "Организация_Key": "Edm.Guid",
+        "Подразделение_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Статьи затрат",
+      "collection": "Catalog_СтатьиЗатрат",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Методы распределения косвенных расходов",
+      "collection": "InformationRegister_МетодыРаспределенияКосвенныхРасходовОрганизаций",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,Организация_Key,СчетЗатрат_Key,СтатьяЗатрат_Key,Подразделение_Key",
+      "keyTypes": {
+        "Period": "Edm.DateTime",
+        "Организация_Key": "Edm.Guid",
+        "СчетЗатрат_Key": "Edm.Guid",
+        "СтатьяЗатрат_Key": "Edm.Guid",
+        "Подразделение_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Реализация услуг по переработке",
+      "collection": "Document_РеализацияУслугПоПереработке",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Передача в переработку",
+      "collection": "Document_ПередачаТоваров",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Поступление из переработки",
+      "collection": "Document_ПоступлениеИзПереработки",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Принятие к учёту ОС",
+      "collection": "Document_ПринятиеКУчетуОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Модернизация ОС",
+      "collection": "Document_МодернизацияОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Перемещение ОС",
+      "collection": "Document_ПеремещениеОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Передача ОС",
+      "collection": "Document_ПередачаОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Списание ОС",
+      "collection": "Document_СписаниеОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Ввод начальных остатков ОС",
+      "collection": "Document_ВводНачальныхОстатковОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Поступление НМА",
+      "collection": "Document_ПоступлениеНМА",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Принятие к учёту НМА",
+      "collection": "Document_ПринятиеКУчетуНМА",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Списание НМА",
+      "collection": "Document_СписаниеНМА",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Передача НМА",
+      "collection": "Document_ПередачаНМА",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Модернизация НМА",
+      "collection": "Document_МодернизацияНМА",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Изменение параметров начисления амортизации ОС",
+      "collection": "Document_ИзменениеПараметровНачисленияАмортизацииОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Изменение способов отражения расходов по амортизации ОС",
+      "collection": "Document_ИзменениеСпособовОтраженияРасходовПоАмортизацииОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Изменение графиков амортизации ОС",
+      "collection": "Document_ИзменениеГрафиковАмортизацииОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Выработка ОС",
+      "collection": "Document_ВыработкаОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Инвентаризация ОС",
+      "collection": "Document_ИнвентаризацияОС",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Изменение способов отражения расходов по амортизации НМА",
+      "collection": "Document_ИзменениеСпособовОтраженияРасходовПоАмортизацииНМА",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Объекты строительства",
+      "collection": "Catalog_ОбъектыСтроительства",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Нематериальные активы",
+      "collection": "Catalog_НематериальныеАктивы",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Основные средства",
+      "collection": "Catalog_ОсновныеСредства",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": true,
+      "orderBy": "IsFolder desc,Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "События с основными средствами",
+      "collection": "Catalog_СобытияОС",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Способы отражения расходов по амортизации",
+      "collection": "Catalog_СпособыОтраженияРасходовПоАмортизации",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Годовые графики амортизации ОС",
+      "collection": "Catalog_ГодовыеГрафикиАмортизацииОС",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Параметры выработки ОС",
+      "collection": "Catalog_ПараметрыВыработкиОС",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Приказы кадровые",
+      "collection": "Document_ПриказыКадровые",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Начисления и разовые удержания",
+      "collection": "Document_НачислениеЗарплаты",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Закрытие месяца ЗП",
+      "collection": "Document_ЗакрытиеМесяцаЗП",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Выплата зарплаты",
+      "collection": "Document_ВыплатаЗарплаты",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Удержания особые",
+      "collection": "Document_УдержанияОсобые",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Больничные",
+      "collection": "Document_Больничные",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Исполнительный лист",
+      "collection": "Document_ИсполнительныйЛист",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Табель",
+      "collection": "Document_Табель",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Ежедневный табель",
+      "collection": "Document_ТабельЕжедневный",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Трудовое соглашение",
+      "collection": "Document_ТрудовоеСоглашение",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Отпускные",
+      "collection": "Document_Отпускные",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Командировки организаций",
+      "collection": "Document_КомандировкиОрганизаций",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Оплата по среднему заработку",
+      "collection": "Document_ОплатаПоСреднемуЗаработку",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Сдельная выработка",
+      "collection": "Document_СдельнаяВыработка",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Ручной ввод ЗП",
+      "collection": "Document_РучнойВводЗП",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Ввод начальных остатков по ЗП",
+      "collection": "Document_ВводНачальныхОстатковЗП",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Сведения о предыдущих периодах",
+      "collection": "Document_СведенияОПредыдущихПериодах_ЗП",
+      "kind": "document",
+      "dateField": "Date",
+      "hierarchical": false,
+      "orderBy": "Date desc,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Способы отражения зарплаты в учёте",
+      "collection": "Catalog_СпособыОтраженияЗарплатыВРеглУчете",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Сведения об инвалидности физ. лиц",
+      "collection": "InformationRegister_СведенияОбИнвалидностиФизлиц",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,Физлицо_Key",
+      "keyTypes": {
+        "Period": "Edm.DateTime",
+        "Физлицо_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Дополнительные способы расчёта",
+      "collection": "Catalog_ДополнительныеСпособыРасчетаЗП",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Статусы",
+      "collection": "Catalog_СтатусыЗП",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Графики работы",
+      "collection": "Catalog_ГрафикиРаботы",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Должности",
+      "collection": "Catalog_ДолжностиОрганизаций",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Виды выплат",
+      "collection": "Catalog_ВидыВыплат",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Книга ЗП",
+      "collection": "InformationRegister_КнигаЗП_RecordType",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,Месяц,Сотрудник_Key,Организация_Key",
+      "keyTypes": {
+        "Period": "Edm.DateTime",
+        "Месяц": "Edm.DateTime",
+        "Сотрудник_Key": "Edm.Guid",
+        "Организация_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Книга накопления ЗП",
+      "collection": "InformationRegister_КнигаНакопленияЗП_RecordType",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,Организация_Key,ФизЛицо_Key",
+      "keyTypes": {
+        "Period": "Edm.DateTime",
+        "Организация_Key": "Edm.Guid",
+        "ФизЛицо_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Работники организаций",
+      "collection": "InformationRegister_РаботникиОрганизаций_RecordType",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,ФизЛицо_Key,Организация_Key",
+      "keyTypes": {
+        "Period": "Edm.DateTime",
+        "ФизЛицо_Key": "Edm.Guid",
+        "Организация_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Плановые начисления и удержания",
+      "collection": "InformationRegister_ПлановыеНачисленияИУдержания_RecordType",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,ФизЛицо_Key,Организация_Key,ВидРасчета_Key,ПодразделениеОрганизации_Key,Должность_Key",
+      "keyTypes": {
+        "Period": "Edm.DateTime",
+        "ФизЛицо_Key": "Edm.Guid",
+        "Организация_Key": "Edm.Guid",
+        "ВидРасчета_Key": "Edm.Guid",
+        "ПодразделениеОрганизации_Key": "Edm.Guid",
+        "Должность_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Взаиморасчёты по ЗП",
+      "collection": "CalculationRegister_ВзаиморасчетыПоЗП_RecordType",
+      "kind": "register",
+      "dateField": "RegistrationPeriod",
+      "hierarchical": false,
+      "orderBy": "RegistrationPeriod desc,LineNumber",
+      "keyTypes": {
+        "LineNumber": "Edm.Int64"
+      }
+    },
+    {
+      "title": "Соцотчисления фирмы",
+      "collection": "AccumulationRegister_СоцотчисленияФирмы_RecordType",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,Recorder,LineNumber,Recorder_Type",
+      "keyTypes": {
+        "Recorder": "Edm.String",
+        "LineNumber": "Edm.Int64",
+        "Recorder_Type": "Edm.String"
+      }
+    },
+    {
+      "title": "Работники",
+      "collection": "InformationRegister_РаботникиОрганизаций_RecordType",
+      "kind": "register",
+      "dateField": "Period",
+      "hierarchical": false,
+      "orderBy": "Period desc,ФизЛицо_Key,Организация_Key",
+      "keyTypes": {
+        "Period": "Edm.DateTime",
+        "ФизЛицо_Key": "Edm.Guid",
+        "Организация_Key": "Edm.Guid"
+      }
+    },
+    {
+      "title": "Основания увольнения",
+      "collection": "Catalog_ОснованияУвольненияИзОрганизации",
+      "kind": "catalog",
+      "dateField": null,
+      "hierarchical": false,
+      "orderBy": "Description,Ref_Key",
+      "keyTypes": {
+        "Ref_Key": "Edm.Guid"
+      }
+    }
+  ],
+  "menu": [
+    {
+      "id": "bank",
+      "title": "Банк и касса",
+      "kind": "section",
+      "sources": [],
+      "explanation": null,
+      "children": [
+        {
+          "id": "bank-documents",
+          "title": "Документы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Приходный кассовый ордер",
+              "title": "Приходный кассовый ордер",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Расходный кассовый ордер",
+              "title": "Расходный кассовый ордер",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Авансовый отчёт",
+              "title": "Авансовый отчёт",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Платёжное поручение исходящее",
+              "title": "Платёжное поручение исходящее",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "bank-statement",
+              "title": "Выписка банка",
+              "kind": "unavailable",
+              "sources": [],
+              "explanation": "В предоставленных метаданных нет объекта «Выписка банка». В 1С этот пункт может открывать обработку. Для загрузки выписки нужен отдельный серверный интерфейс. Платёжные документы доступны в журнале «Банковские расчётные документы».",
+              "children": []
+            },
+            {
+              "id": "Платёжное поручение входящее",
+              "title": "Платёжное поручение входящее",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Конвертация",
+              "title": "Конвертация",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Платёжный ордер — списание денежных средств",
+              "title": "Платёжный ордер — списание денежных средств",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Платёжный ордер — поступление денежных средств",
+              "title": "Платёжный ордер — поступление денежных средств",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "bank-journals",
+          "title": "Журналы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "cash-documents",
+              "title": "Кассовые документы",
+              "kind": "journal",
+              "sources": [
+                "Приходный кассовый ордер",
+                "Расходный кассовый ордер",
+                "Авансовый отчёт"
+              ],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "bank-payments",
+              "title": "Банковские расчётные документы",
+              "kind": "journal",
+              "sources": [
+                "Платёжное поручение исходящее",
+                "Платёжное поручение входящее",
+                "Платёжный ордер — списание денежных средств",
+                "Платёжный ордер — поступление денежных средств",
+                "Конвертация"
+              ],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "bank-catalogs",
+          "title": "Справочники",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Статьи движения денежных средств",
+              "title": "Статьи движения денежных средств",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Контрагенты",
+              "title": "Контрагенты",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Физические лица",
+              "title": "Физические лица",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Валюты",
+              "title": "Валюты",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trade",
+      "title": "Покупка-Продажа",
+      "kind": "section",
+      "sources": [],
+      "explanation": null,
+      "children": [
+        {
+          "id": "trade-documents",
+          "title": "Документы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Доверенность",
+              "title": "Доверенность",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Поступление товаров и услуг",
+              "title": "Поступление товаров и услуг",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Поступление доп. расходов",
+              "title": "Поступление доп. расходов",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "ГТД по импорту",
+              "title": "ГТД по импорту",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Возврат товаров поставщику",
+              "title": "Возврат товаров поставщику",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Счёт-фактура полученный",
+              "title": "Счёт-фактура полученный",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Счёт на оплату",
+              "title": "Счёт на оплату",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Реализация товаров и услуг",
+              "title": "Реализация товаров и услуг",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Возврат товаров от покупателя",
+              "title": "Возврат товаров от покупателя",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Счёт-фактура выданный",
+              "title": "Счёт-фактура выданный",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "trade-journals",
+          "title": "Журналы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "buyer-documents",
+              "title": "Документы покупателей",
+              "kind": "journal",
+              "sources": [
+                "Счёт на оплату",
+                "Реализация товаров и услуг",
+                "Возврат товаров от покупателя",
+                "Счёт-фактура выданный"
+              ],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "supplier-documents",
+              "title": "Документы поставщиков",
+              "kind": "journal",
+              "sources": [
+                "Доверенность",
+                "Поступление товаров и услуг",
+                "Поступление доп. расходов",
+                "ГТД по импорту",
+                "Возврат товаров поставщику",
+                "Счёт-фактура полученный"
+              ],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "trade-catalogs",
+          "title": "Справочники",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Контрагенты",
+              "title": "Контрагенты",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Номенклатура",
+              "title": "Номенклатура",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Склады",
+              "title": "Склады",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warehouse",
+      "title": "Склад",
+      "kind": "section",
+      "sources": [],
+      "explanation": null,
+      "children": [
+        {
+          "id": "warehouse-documents",
+          "title": "Документы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Инвентаризация товаров на складе",
+              "title": "Инвентаризация товаров на складе",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Оприходование товаров",
+              "title": "Оприходование товаров",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Списание товаров",
+              "title": "Списание товаров",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Перемещение товаров",
+              "title": "Перемещение товаров",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Движение МБП",
+              "title": "Движение МБП",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Комплектация номенклатуры",
+              "title": "Комплектация номенклатуры",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "warehouse-journals",
+          "title": "Журналы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "warehouse-log",
+              "title": "Складские документы",
+              "kind": "journal",
+              "sources": [
+                "Инвентаризация товаров на складе",
+                "Оприходование товаров",
+                "Списание товаров",
+                "Перемещение товаров",
+                "Движение МБП",
+                "Комплектация номенклатуры"
+              ],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "warehouse-catalogs",
+          "title": "Справочники",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Номенклатура",
+              "title": "Номенклатура",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Склады",
+              "title": "Склады",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Производство",
+      "kind": "section",
+      "sources": [],
+      "explanation": null,
+      "children": [
+        {
+          "id": "production-output",
+          "title": "Выпуск продукции",
+          "kind": "section",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "output-documents",
+              "title": "Документы",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "Требование-накладная",
+                  "title": "Требование-накладная",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Поступление товаров и услуг",
+                  "title": "Поступление товаров и услуг",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Авансовый отчёт",
+                  "title": "Авансовый отчёт",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Отчёт производства за смену",
+                  "title": "Отчёт производства за смену",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Акт об оказании услуг производственного характера",
+                  "title": "Акт об оказании услуг производственного характера",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Инвентаризация незавершённого производства",
+                  "title": "Инвентаризация незавершённого производства",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "production-journals",
+              "title": "Журналы",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "production-documents",
+                  "title": "Производственные документы",
+                  "kind": "journal",
+                  "sources": [
+                    "Требование-накладная",
+                    "Отчёт производства за смену",
+                    "Акт об оказании услуг производственного характера",
+                    "Инвентаризация незавершённого производства",
+                    "Реализация услуг по переработке",
+                    "Передача в переработку",
+                    "Поступление из переработки"
+                  ],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Закрытие месяца",
+                  "title": "Закрытие месяца",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "production-catalogs",
+              "title": "Справочники",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "Номенклатура",
+                  "title": "Номенклатура",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Основные спецификации номенклатуры",
+                  "title": "Основные спецификации номенклатуры",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Номенклатурные группы",
+                  "title": "Номенклатурные группы",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Подразделения",
+                  "title": "Подразделения",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Порядок подразделений для закрытия счетов",
+                  "title": "Порядок подразделений для закрытия счетов",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Статьи затрат",
+                  "title": "Статьи затрат",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Склады",
+                  "title": "Склады",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Контрагенты",
+                  "title": "Контрагенты",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Методы распределения косвенных расходов",
+                  "title": "Методы распределения косвенных расходов",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "production-processing",
+          "title": "Переработка",
+          "kind": "section",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "processing-documents",
+              "title": "Документы",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "Поступление товаров и услуг",
+                  "title": "Поступление товаров и услуг",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Требование-накладная",
+                  "title": "Требование-накладная",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Авансовый отчёт",
+                  "title": "Авансовый отчёт",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Отчёт производства за смену",
+                  "title": "Отчёт производства за смену",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Реализация услуг по переработке",
+                  "title": "Реализация услуг по переработке",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Возврат товаров поставщику",
+                  "title": "Возврат товаров поставщику",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "production-journals",
+              "title": "Журналы",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "production-documents",
+                  "title": "Производственные документы",
+                  "kind": "journal",
+                  "sources": [
+                    "Требование-накладная",
+                    "Отчёт производства за смену",
+                    "Акт об оказании услуг производственного характера",
+                    "Инвентаризация незавершённого производства",
+                    "Реализация услуг по переработке",
+                    "Передача в переработку",
+                    "Поступление из переработки"
+                  ],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Закрытие месяца",
+                  "title": "Закрытие месяца",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "production-catalogs",
+              "title": "Справочники",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "Номенклатура",
+                  "title": "Номенклатура",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Основные спецификации номенклатуры",
+                  "title": "Основные спецификации номенклатуры",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Номенклатурные группы",
+                  "title": "Номенклатурные группы",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Подразделения",
+                  "title": "Подразделения",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Порядок подразделений для закрытия счетов",
+                  "title": "Порядок подразделений для закрытия счетов",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Статьи затрат",
+                  "title": "Статьи затрат",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Склады",
+                  "title": "Склады",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Контрагенты",
+                  "title": "Контрагенты",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Методы распределения косвенных расходов",
+                  "title": "Методы распределения косвенных расходов",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "production-transfer",
+          "title": "Передача в переработку",
+          "kind": "section",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "transfer-documents",
+              "title": "Документы",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "Передача в переработку",
+                  "title": "Передача в переработку",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Поступление из переработки",
+                  "title": "Поступление из переработки",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "production-journals",
+              "title": "Журналы",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "production-documents",
+                  "title": "Производственные документы",
+                  "kind": "journal",
+                  "sources": [
+                    "Требование-накладная",
+                    "Отчёт производства за смену",
+                    "Акт об оказании услуг производственного характера",
+                    "Инвентаризация незавершённого производства",
+                    "Реализация услуг по переработке",
+                    "Передача в переработку",
+                    "Поступление из переработки"
+                  ],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Закрытие месяца",
+                  "title": "Закрытие месяца",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "production-catalogs",
+              "title": "Справочники",
+              "kind": "group",
+              "sources": [],
+              "explanation": null,
+              "children": [
+                {
+                  "id": "Номенклатура",
+                  "title": "Номенклатура",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Основные спецификации номенклатуры",
+                  "title": "Основные спецификации номенклатуры",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Номенклатурные группы",
+                  "title": "Номенклатурные группы",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Подразделения",
+                  "title": "Подразделения",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Порядок подразделений для закрытия счетов",
+                  "title": "Порядок подразделений для закрытия счетов",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Статьи затрат",
+                  "title": "Статьи затрат",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Склады",
+                  "title": "Склады",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Контрагенты",
+                  "title": "Контрагенты",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                },
+                {
+                  "id": "Методы распределения косвенных расходов",
+                  "title": "Методы распределения косвенных расходов",
+                  "kind": "resource",
+                  "sources": [],
+                  "explanation": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assets",
+      "title": "Основные средства и НМА",
+      "kind": "section",
+      "sources": [],
+      "explanation": null,
+      "children": [
+        {
+          "id": "asset-documents",
+          "title": "Документы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Поступление товаров и услуг",
+              "title": "Поступление товаров и услуг",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Принятие к учёту ОС",
+              "title": "Принятие к учёту ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Модернизация ОС",
+              "title": "Модернизация ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Перемещение ОС",
+              "title": "Перемещение ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Передача ОС",
+              "title": "Передача ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Списание ОС",
+              "title": "Списание ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Ввод начальных остатков ОС",
+              "title": "Ввод начальных остатков ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Поступление НМА",
+              "title": "Поступление НМА",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Принятие к учёту НМА",
+              "title": "Принятие к учёту НМА",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Списание НМА",
+              "title": "Списание НМА",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Передача НМА",
+              "title": "Передача НМА",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Модернизация НМА",
+              "title": "Модернизация НМА",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "asset-journals",
+          "title": "Журналы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "asset-log",
+              "title": "Документы по ОС и НМА",
+              "kind": "journal",
+              "sources": [
+                "Поступление товаров и услуг",
+                "Принятие к учёту ОС",
+                "Модернизация ОС",
+                "Перемещение ОС",
+                "Передача ОС",
+                "Списание ОС",
+                "Ввод начальных остатков ОС",
+                "Поступление НМА",
+                "Принятие к учёту НМА",
+                "Списание НМА",
+                "Передача НМА",
+                "Модернизация НМА",
+                "Изменение параметров начисления амортизации ОС",
+                "Изменение способов отражения расходов по амортизации ОС",
+                "Изменение графиков амортизации ОС",
+                "Выработка ОС",
+                "Инвентаризация ОС",
+                "Изменение способов отражения расходов по амортизации НМА"
+              ],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Изменение параметров начисления амортизации ОС",
+              "title": "Изменение параметров начисления амортизации ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Изменение способов отражения расходов по амортизации ОС",
+              "title": "Изменение способов отражения расходов по амортизации ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Изменение графиков амортизации ОС",
+              "title": "Изменение графиков амортизации ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Выработка ОС",
+              "title": "Выработка ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Инвентаризация ОС",
+              "title": "Инвентаризация ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Изменение способов отражения расходов по амортизации НМА",
+              "title": "Изменение способов отражения расходов по амортизации НМА",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "asset-catalogs",
+          "title": "Справочники",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Объекты строительства",
+              "title": "Объекты строительства",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Нематериальные активы",
+              "title": "Нематериальные активы",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Номенклатура",
+              "title": "Номенклатура",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Основные средства",
+              "title": "Основные средства",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "События с основными средствами",
+              "title": "События с основными средствами",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Способы отражения расходов по амортизации",
+              "title": "Способы отражения расходов по амортизации",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Годовые графики амортизации ОС",
+              "title": "Годовые графики амортизации ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Параметры выработки ОС",
+              "title": "Параметры выработки ОС",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "payroll",
+      "title": "Зарплата",
+      "kind": "section",
+      "sources": [],
+      "explanation": null,
+      "children": [
+        {
+          "id": "payroll-documents",
+          "title": "Документы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Приказы кадровые",
+              "title": "Приказы кадровые",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Начисления и разовые удержания",
+              "title": "Начисления и разовые удержания",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Закрытие месяца ЗП",
+              "title": "Закрытие месяца ЗП",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Выплата зарплаты",
+              "title": "Выплата зарплаты",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Платёжное поручение исходящее",
+              "title": "Платёжное поручение исходящее",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Расходный кассовый ордер",
+              "title": "Расходный кассовый ордер",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Удержания особые",
+              "title": "Удержания особые",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Больничные",
+              "title": "Больничные",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Исполнительный лист",
+              "title": "Исполнительный лист",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "payroll-monitor",
+              "title": "Монитор ЗП",
+              "kind": "unavailable",
+              "sources": [],
+              "explanation": "Монитор ЗП — интерфейс обработки 1С, он не опубликован как набор данных OData. В приложении доступны документы расчёта зарплаты и регистры «Книга ЗП», «Книга накопления ЗП». Для самого монитора потребуется HTTP-сервис в 1С.",
+              "children": []
+            },
+            {
+              "id": "Табель",
+              "title": "Табель",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Ежедневный табель",
+              "title": "Ежедневный табель",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Трудовое соглашение",
+              "title": "Трудовое соглашение",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Отпускные",
+              "title": "Отпускные",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Командировки организаций",
+              "title": "Командировки организаций",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Оплата по среднему заработку",
+              "title": "Оплата по среднему заработку",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Сдельная выработка",
+              "title": "Сдельная выработка",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Ручной ввод ЗП",
+              "title": "Ручной ввод ЗП",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Ввод начальных остатков по ЗП",
+              "title": "Ввод начальных остатков по ЗП",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Сведения о предыдущих периодах",
+              "title": "Сведения о предыдущих периодах",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "payroll-journals",
+          "title": "Журналы и справочники",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "payroll-log",
+              "title": "Документы по расчёту зарплаты",
+              "kind": "journal",
+              "sources": [
+                "Приказы кадровые",
+                "Начисления и разовые удержания",
+                "Закрытие месяца ЗП",
+                "Выплата зарплаты",
+                "Удержания особые",
+                "Больничные",
+                "Исполнительный лист",
+                "Табель",
+                "Ежедневный табель",
+                "Трудовое соглашение",
+                "Отпускные",
+                "Командировки организаций",
+                "Оплата по среднему заработку",
+                "Сдельная выработка",
+                "Ручной ввод ЗП",
+                "Ввод начальных остатков по ЗП",
+                "Сведения о предыдущих периодах"
+              ],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Физические лица",
+              "title": "Физические лица",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Способы отражения зарплаты в учёте",
+              "title": "Способы отражения зарплаты в учёте",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Сведения об инвалидности физ. лиц",
+              "title": "Сведения об инвалидности физ. лиц",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "calculation-types",
+              "title": "Виды расчётов",
+              "kind": "unavailable",
+              "sources": [],
+              "explanation": "В присланном XML нет опубликованных планов видов расчёта. Добавьте нужный план видов расчёта в состав стандартного интерфейса OData и предоставьте обновлённые метаданные для подключения этого пункта.",
+              "children": []
+            },
+            {
+              "id": "Дополнительные способы расчёта",
+              "title": "Дополнительные способы расчёта",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Статусы",
+              "title": "Статусы",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Графики работы",
+              "title": "Графики работы",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Должности",
+              "title": "Должности",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Виды выплат",
+              "title": "Виды выплат",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "payroll-registers",
+          "title": "Справочники",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Книга ЗП",
+              "title": "Книга ЗП",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Книга накопления ЗП",
+              "title": "Книга накопления ЗП",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Работники организаций",
+              "title": "Работники организаций",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Плановые начисления и удержания",
+              "title": "Плановые начисления и удержания",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Взаиморасчёты по ЗП",
+              "title": "Взаиморасчёты по ЗП",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Соцотчисления фирмы",
+              "title": "Соцотчисления фирмы",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "personnel",
+      "title": "Кадры",
+      "kind": "section",
+      "sources": [],
+      "explanation": null,
+      "children": [
+        {
+          "id": "personnel-documents",
+          "title": "Документы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Приказы кадровые",
+              "title": "Приказы кадровые",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Командировки организаций",
+              "title": "Командировки организаций",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Табель",
+              "title": "Табель",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "personnel-journals",
+          "title": "Журналы",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "personnel-log",
+              "title": "Учёт кадров организаций",
+              "kind": "journal",
+              "sources": [
+                "Приказы кадровые",
+                "Командировки организаций",
+                "Табель"
+              ],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "personnel-catalogs",
+          "title": "Справочники",
+          "kind": "group",
+          "sources": [],
+          "explanation": null,
+          "children": [
+            {
+              "id": "Физические лица",
+              "title": "Физические лица",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Работники",
+              "title": "Работники",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Должности",
+              "title": "Должности",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            },
+            {
+              "id": "Основания увольнения",
+              "title": "Основания увольнения",
+              "kind": "resource",
+              "sources": [],
+              "explanation": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
